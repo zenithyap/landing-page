@@ -104,3 +104,21 @@ p {
     margin-bottom: 16px;
     border-radius: 16px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: content-fit;
+}
+
+.quote .author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
