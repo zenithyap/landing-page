@@ -46,7 +46,7 @@ ul {
     width: 450px;
 }
 
-.main-title {
+.intro .title {
     font-size: 48px;
     font-weight: 900;
 }
@@ -72,4 +72,35 @@ p {
     background-color: grey;
     width: 500px;
     height: 250px;
+}
+
+.details {
+    color: #1F2937;
+}
+
+.details .title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 48px;
+}
+
+.block-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.block {
+    width: 170px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.blank-square {
+    width: inherit;
+    aspect-ratio: 1;
+    border: solid 4px #3882F6;
+    margin-bottom: 16px;
+    border-radius: 16px;
 }
