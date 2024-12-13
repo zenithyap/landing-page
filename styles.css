@@ -27,3 +27,49 @@ ul {
     font-size: 18px;
     gap: 24px;
 }
+
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 24px;
+    gap: 64px;
+}
+
+.intro .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 450px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+}
+
+.intro button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 32px;
+    font-size: 18px;
+    color: inherit;
+    font-weight: 500;
+}
+
+.placeholder-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 500px;
+    height: 250px;
+}
