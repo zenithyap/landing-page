@@ -123,3 +123,27 @@ p {
     font-weight: bold;
     text-align: right;
 }
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    padding: 40px 100px;
+    margin: 100px 250px;
+    justify-content: space-between;
+    border-radius: 16px;
+    color: #F9FAF8;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.call-to-action button {
+    color: inherit;
+    background-color: inherit;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 24px;
+}
+
+
