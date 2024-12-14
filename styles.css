@@ -5,8 +5,14 @@
     font-family: "Roboto", sans-serif;
 }
 
-.header {
+.header,
+.intro,
+.footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,22 +22,23 @@
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #F9FAF8;
+}
+
+ul,
+p,
+button {
+    font-size: 18px;
 }
 
 ul {
     display: flex;
     text-decoration: none;
     list-style-type: none;
-    color: #E5E7EB;
-    font-size: 18px;
     gap: 24px;
 }
 
 .intro {
     display: flex;
-    background-color: #1F2937;
-    color: #F9FAF8;
     align-items: center;
     justify-content: center;
     padding: 120px 24px;
@@ -51,16 +58,11 @@ ul {
     font-weight: 900;
 }
 
-p {
-    font-size: 18px;
-}
-
 .intro button {
     background-color: #3882F6;
     border-radius: 8px;
     border: none;
     padding: 7px 32px;
-    font-size: 18px;
     color: inherit;
     font-weight: 500;
 }
@@ -147,8 +149,6 @@ p {
 }
 
 .footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
     text-align: center;
     padding: 24px;
 }
